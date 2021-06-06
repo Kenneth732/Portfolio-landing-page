@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/meta/c907eba820385fe23dc80d3f9ad69021.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.navbar{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.user-icon{
+    width: 60px;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 2px;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid #ff6b3f;
+}
+
+.content{
+    max-width: 600px;
+    color: #fff;
+    margin-top: 15%;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+
+p{
+    font-size: 22px;
+    line-height: 22px;
+}
+
+
+span{
+    color: #ff6b3f;
+}
+
+.btn-box{
+    margin-top: 20px;
+}
+
+button{
+    width: 150px;
+    border: 1px solid #ff6b3f;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    background: #ff6b3f;
+    border-radius: 25px;
+}
+
+
+.btn{
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+
+.sidebar{
+    width: 80px;
+    height: 100vh;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-icon{
+    width: 20px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+
+.social-links{
+    width: 80px;
+    position: absolute;
+    bottom: 20px;
+}
+
+
+.social-links img{
+    height: 15px;
+    display: block;
+    margin: 25px auto;
+    cursor: pointer;
+}
+
+
+
+.row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    position: absolute;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h3{
+    color: #fff;
+    font-size: 100px;
+    margin-left: 1400px;
+    position: relative;
+    bottom: 150px;
+    
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.dog-logo{
+    position: relative;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 15%;
+    margin: 440px -180px 170px;
+}
+
+
+.main{
+    background: rgb(28, 28, 73);
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    margin: 10px;
+    text-align: center;
+}
+
+.main h4{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.footer{
+    float: right;
+}
